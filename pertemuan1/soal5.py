@@ -1,6 +1,6 @@
 data = ['firman','helloworld']
 kondisi = True
-coba = 0
+coba = 1
 while kondisi:
     username = input("Masukkan Username: ")
     password = input("Masukkan Password: ")
