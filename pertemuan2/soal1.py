@@ -13,7 +13,7 @@ def window_go():
        var = QLabel(window)
        var.setText("Ini Kalimat Ke " + str(i+1))
        # untuk mengubah text nya menjadi putih jika warna base nya berwarna hitam
-       #var.setStyleSheet("color: white")
+       # var.setStyleSheet("color: white")
        var.move(160,y)
        y += 30
 
