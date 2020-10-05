@@ -12,12 +12,13 @@ def window_go():
    for i in range(10):
        var = QLabel(window)
        var.setText("Ini Kalimat Ke " + str(i+1))
-       var.setStyleSheet("color: white")
+       # untuk mengubah text nya menjadi putih jika warna base nya berwarna hitam
+       #var.setStyleSheet("color: white")
        var.move(160,y)
        y += 30
 
    #menentukan ukuran window, + title dan menampilkan
-   window.setGeometry(100,100,500,500)
+   window.setGeometry(100,100,1366,768)
    window.setWindowTitle("PyQT Pertama")
    window.show()
    sys.exit(app.exec_())
